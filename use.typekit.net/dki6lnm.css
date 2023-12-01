@@ -1,0 +1,55 @@
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * lato:
+ *   - http://typekit.com/eulas/00000000000000000001522d
+ *   - http://typekit.com/eulas/000000000000000000015232
+ *   - http://typekit.com/eulas/000000000000000000015231
+ *   - http://typekit.com/eulas/00000000000000000001522b
+ *   - http://typekit.com/eulas/00000000000000000001522c
+ *   - http://typekit.com/eulas/00000000000000000001522a
+ *
+ * © 2009-2023 Adobe Systems Incorporated. All Rights Reserved.
+ */
+/*{"last_published":"2019-04-08 15:57:04 UTC"}*/
+
+@import url("../p.typekit.net/p5550.css?s=1&amp;k=dki6lnm&amp;ht=tk&amp;f=15701.15703.15705.15707.15708.15709&amp;a=10996133&amp;app=typekit&amp;e=css");
+
+@font-face {
+font-family:"lato";
+src:url("af/bdde80/00000000000000000001522d/27/l34b8?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&amp;fvd=i4&amp;v=3") format("woff2"),url("af/bdde80/00000000000000000001522d/27/d34b8?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&amp;fvd=i4&amp;v=3") format("woff"),url("af/bdde80/00000000000000000001522d/27/a34b8?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&amp;fvd=i4&amp;v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"lato";
+src:url("af/6c7e72/000000000000000000015232/27/l3fe8?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&amp;fvd=i7&amp;v=3") format("woff2"),url("af/6c7e72/000000000000000000015232/27/d3fe8?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&amp;fvd=i7&amp;v=3") format("woff"),url("af/6c7e72/000000000000000000015232/27/a3fe8?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&amp;fvd=i7&amp;v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"lato";
+src:url("af/220823/000000000000000000015231/27/l04c7?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&amp;fvd=n7&amp;v=3") format("woff2"),url("af/220823/000000000000000000015231/27/d04c7?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&amp;fvd=n7&amp;v=3") format("woff"),url("af/220823/000000000000000000015231/27/a04c7?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&amp;fvd=n7&amp;v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"lato";
+src:url("af/845de0/00000000000000000001522b/27/l00c0?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&amp;fvd=i3&amp;v=3") format("woff2"),url("af/845de0/00000000000000000001522b/27/d00c0?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&amp;fvd=i3&amp;v=3") format("woff"),url("af/845de0/00000000000000000001522b/27/a00c0?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&amp;fvd=i3&amp;v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:300;font-stretch:normal;
+}
+
+@font-face {
+font-family:"lato";
+src:url("af/180254/00000000000000000001522c/27/l64f0?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&amp;fvd=n4&amp;v=3") format("woff2"),url("af/180254/00000000000000000001522c/27/d64f0?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&amp;fvd=n4&amp;v=3") format("woff"),url("af/180254/00000000000000000001522c/27/a64f0?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&amp;fvd=n4&amp;v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"lato";
+src:url("af/a2df1e/00000000000000000001522a/27/l0ac7?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&amp;fvd=n3&amp;v=3") format("woff2"),url("af/a2df1e/00000000000000000001522a/27/d0ac7?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&amp;fvd=n3&amp;v=3") format("woff"),url("af/a2df1e/00000000000000000001522a/27/a0ac7?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&amp;fvd=n3&amp;v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:300;font-stretch:normal;
+}

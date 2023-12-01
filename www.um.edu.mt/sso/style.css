@@ -1,0 +1,440 @@
+@import '../_umapp/webcms.css';
+
+#uomsso_sides {
+	opacity: 0.65;
+	background-image:url(../i/sides.png);
+	background-repeat:repeat-x;
+	z-index: 4;
+	width:100%;
+	position:absolute;
+	overflow:visible;
+	height: 171px;
+	top: 50%;
+	padding: 0px;
+	margin-top: -85px;
+}
+
+#uomsso_logo {
+	background-image:url(../i/logo.gif);
+	width: 59px;
+	height: 79px;
+	position: absolute;
+	left: 37px;
+	vertical-align: middle;
+	top: 33px;
+}
+#uomsso_center_box {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#FFFFFF;
+	font-weight:bold;
+	width: 420px;
+	overflow: visible;
+	position: absolute;
+	z-index: 5;
+	height: 160px;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	margin-top: -80px;
+	vertical-align: middle;
+	padding: 0px;
+	margin-left: -210px;
+	border: 1px solid #000000;
+	background-color: #F1F1DB;
+}
+
+#uomsso_header {
+	background-color: #577180;
+	width: 100%;
+	height: 20px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #000000;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+#uomsso_header_left {
+	text-align: left;
+	vertical-align: middle;
+	margin-top: 2px;
+	margin-left: 2px;
+}
+.uomsso_header_right {
+	text-align: right;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	margin-top: 2px;
+	margin-right: 2px;
+}
+#uomsso_footer_left{
+	font-size:20px;
+	color:#BBBB80;
+	font-weight:bold;
+	text-align: center;
+	height: 35px;
+	width: 130px;
+	position: absolute;
+	bottom: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	vertical-align: middle;
+	left: 0px;
+}
+#uomsso_footer_right {
+	width: 340px;
+	position: absolute;
+	bottom: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	text-align: center;
+	left: 81px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FF0000;
+	font-style: normal;
+	font-weight: bold;
+	height: 25px;
+}
+
+#uomsso_footer_right a:link, #footer_right a:visited {
+	color:#F00;
+	text-decoration:underline;
+}
+
+#uomsso_footer_right a:hover {
+	color:#F00;
+	text-decoration:underline overline;
+}
+
+.uomsso_content {
+	position: absolute;
+	top: 20px;
+	left: 160px;
+	right: 30px;
+	font-size:12px;
+	font-weight:bold;
+	color:#222222;
+}
+
+.UoMSSOdata { }
+.UoMSSOdataunseen {
+  font-weight: bold;
+}
+.uomssoover {
+	z-index: 600;
+	visibility:hidden;
+	display: block;
+	position: fixed;
+	border: 1px solid black;
+	background-color: #ffffff;
+	text-align: left;
+	padding: 10px;
+}
+.uomssomod:hover .uomssoover {
+	visibility:visible;
+}
+.uomssocall {
+	cursor: help;
+	color: #0000A0;
+}
+.uomssocall:hover {
+	text-decoration: underline;
+}
+
+#unimt-mail {
+  display: inline;
+  width: 100px;
+}
+
+.uomtopbanner {
+  z-index: 1000;
+  background-color: #E0E0E0;
+  display: block;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  text-align: center;
+}
+
+.uombottombanner {
+  z-index: 1000;
+  background-color: #4AA001;
+  color: #000000;
+  font-size: 12px;
+  font-weight: bold;
+  display: block;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  padding: 0px;
+/*
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+*/
+  text-align: center;
+}
+
+#UOM-Content {
+/*
+ * background:url(https://www.um.edu.mt/__data/assets/image/0012/1236/banner_background.jpg) repeat-x;
+ * */
+}
+
+#UOM-Debug {
+  z-index: 1001;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  color: #000000;
+  background-color: #E0E0E0;
+  padding: 5px;
+  font-weight: bold;
+  opacity: 0.5;
+  font-size: 12pt;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+#tempuomsignin {
+    z-index: 100;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    font-size: 12pt;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+#tempuomsignout:hover {
+    color: #FFA000;
+}
+#tempuomsignout {
+    color: #FF0000;
+    background-color: #E0E0E0;
+    z-index: 100;
+    padding: 5px;
+    font-weight: bold;
+    opacity: 0.8;
+    font-size: 12pt;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+#tempuomsignoutbak {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#LoginInfo {color:#666666; font-size:11px; z-index: 500; text-align: right; }
+#LoginInfo img { border-width:0px;}
+#Details a:hover {color: #333333; text-decoration:underline;}
+#LoginInfo .Name {font-weight:bold;}
+#LoginInfo #PersonDetails {margin-bottom:4px; } 
+
+
+#LoginInfo.aimsMS7U2 {color:#4c5358; margin-top:5px;   font-family: Verdana, Arial, Helvetica, sans-serif !important; }
+/*#LoginInfo.aimsMS7U2 .uomssomod a, #LoginInfo.aimsMS7U2 #PersonDetails a { color:#9cb8ea;}  */
+#LoginInfo.aimsMS7U2 .uomssomod a, #LoginInfo.aimsMS7U2 #PersonDetails a { color:#4c5358; text-decoration:none;} 
+#LoginInfo.aimsMS7U2 .uomssoover a { color:#4c5358;}
+
+#LoginInfo.agresso57 {color:white; margin-top:5px;   font-family: Verdana, Arial, Helvetica, sans-serif !important; }
+/*#LoginInfo.agresso57 .uomssomod a, #LoginInfo.agresso57 #PersonDetails a { color:#9cb8ea;}  */
+#LoginInfo.agresso57 .uomssomod a, #LoginInfo.agresso57 #PersonDetails a { color:#d9edf7; text-decoration:none;} 
+#LoginInfo.agresso57 .uomssoover  a { color:#666666;}
+
+
+#Settings {z-index:100;}
+
+#uomssoservices {
+	height: 10px;
+}
+
+#uomssomenu {
+	list-style:none;
+	display:inline;
+	margin:0;
+	padding:0;
+}
+
+#uomssomenu li {
+	display:inline;
+	margin:0;
+	padding:4px auto;
+	position:relative;
+}
+
+#uomssomenu li:hover .dropdown_1column {
+	right:-65px; top:13px;	
+	display:block;
+}
+
+.dropdown_1column {
+	margin:0px auto;
+        padding: 5px;
+	float:left;
+	position:absolute;
+	/*left:-999em;*/
+	display:none;
+	text-align: left;
+	
+	border: 1px solid #daddc0;
+	background: #f6f7e7;
+	background: -moz-linear-gradient(top, #f8f8ee, #f5f2df);
+	width: 300px; z-index:100;
+	
+}
+
+.dropdown_1column a:hover {
+	color: #000000;
+	font-weight:bold;
+}
+
+
+.dd {	
+	margin:0;
+	padding:0;
+	list-style:none;
+	position:relative;
+}
+
+.dd li {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+.dd li a {
+	display:block;
+}
+
+/* menu */
+
+.UoMSSOdatamenu a:hover .uomssodddiv {
+	right:-65px; top:13px;	
+	display:block;
+}
+
+.uomssodddiv {
+	margin:0px auto;
+        padding: 5px;
+	float:left;
+	position:absolute;
+	display:none;
+	text-align: left;
+	
+	border: 1px solid #daddc0;
+	background: #f6f7e7;
+	background: -moz-linear-gradient(top, #f8f8ee, #f5f2df);
+	width: 300px; z-index:100;
+	
+}
+
+.uomssodddiv a:hover {
+	color: #000000;
+	font-weight:bold;
+}
+
+
+.uomssoddlist {	
+	margin:0;
+	padding:0;
+	list-style:none;
+	position:relative;
+}
+
+.uomssoddlist li {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+.uomssoddlist li a {
+	display:block;
+}
+
+/* /menu */
+
+.uomssopopupbackground {
+    z-index: 2000;
+    display: none;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: #ffffff;
+    opacity: 0.6;
+}
+.uomssocenterpopup {
+    z-index: 2001;
+    display: none;
+    position: fixed;
+    width: 400px;
+    height: 150px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000000;
+    background-color: #FFFFFF;
+    overflow: auto;
+    margin: auto;
+    opacity: 1;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.uomssocenterpopup2 {
+    z-index: 2001;
+    display: none;
+    position: fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.uomssopopuptitle {
+    overflow: hidden;
+    display: block;
+    background-color: #E0E0E0;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 20px;
+    padding: 5px;
+}
+.uomssopopupcontent {
+    padding: 5px;
+}
+
+@media print {
+	#uomssoservices, #uomssosignout {
+		display: none;
+	}
+}
+
+#uomssoservices {
+	height: 10px;
+}
+

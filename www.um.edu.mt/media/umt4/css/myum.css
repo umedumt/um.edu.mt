@@ -1,0 +1,41 @@
+/* UM Website */
+
+.UM-Breadcrumbs, .UM-BreadcrumbsM, UM-SideM, header nav, footer {
+  display: none !important;
+}
+
+.index_headerimage {
+  margin-top: 0px;
+}
+
+/* Banner instant load */
+
+.defaultimg {
+  opacity: 1 !important;
+  visibility: inherit !important;
+}
+
+.tp-caption {
+  opacity: 1 !important;
+  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1) !important;
+  transform-origin: 50% 50% 0px !important;
+}
+
+.tp-parallax-wrap {
+  visibility: visible !important;
+}
+
+.slotholder {
+  opacity: 1 !important;
+}
+
+
+/* Newspoint */
+
+#cookie-notice, .header_top_bar_container, .header_container, #breadcrumbs, #footer-links-sidebar, .footer_container, .sidebar, .post_details, .share_box {
+  display: none !important;
+}
+
+.UM-CalendarM {
+  display: block !important;
+}
